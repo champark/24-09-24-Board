@@ -3,9 +3,12 @@ management.endpoints.web.exposure.include: "*"
 
 logging:
   level:
-    com.fastcampus.projectboard: debug
+    com.cham.projectboard: debug
     org.springframework.web.servlet: debug
     org.hibernate.type.descriptor.sql.BasicBinder: trace
+
+server:
+  port: 8090 # 원하는 포트 번호로 변경
 
 spring:
   datasource:
